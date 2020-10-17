@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+	<script type="text/javascript" src="js/alpha.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+<script>
+    $(document).ready(function(){
+        $("img.foto").mouseover(function(){
+        $("img.foto").animate({
+          widht:'200px !important',
+          height: '100px'
+        });
+      });
+    });
+    $(document).ready(function(){
+          $("img.foto").mouseout(function(){
+        $("img.foto").animate({
+          widht:'50px !important',
+          height: '50px'
+        });
+      });
+    });
+    
+</script>
+</head>
+<body>
+    <div class="container-fluid">
+            <div class="row color">
+                    <div class="col-1"><a onclick="openNav()"><img class="iconmenu" src="img/menu.png" alt=""></a>
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <div class="overlay-content">
+                            <a href="sobre.html">Formações</a>
+                            <a href="index.html">Home</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10"></div>
+                    <div class="col-1"><img class="foto img" src="img/eu.jpg" alt="f"></div>
+                    </div>
+            </div> 
+            <div class="row-fluid cor">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4 center"><h1>CONTATOS</h1></div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4 center "><h2>Igor Luis de Oliveira Leite</h2></div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4 center"><h2>Telefone:(12)98204631</h2></div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4 center"><h2>igorluis0105@gmail.com</h2></div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-5 espaco"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.679179557816!2d-45.33608918538342!3d-23.57996316816388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cd60d48ff35215%3A0x8c927758f155a4fc!2sR.%20It%C3%A1lia%20Baffi%20Magni%20-%20Massagua%C3%A7u%2C%20Caraguatatuba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1586015171665!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+                    <div class="col-2"></div>
+                    <div class="col-5 espaco1"><h1>Venha fazer uma visita!!!</h1></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+	<script type="text/javascript" src="js/alpha.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/sobre.css">
+<script>
+    $(document).ready(function(){
+        $("img.foto").mouseover(function(){
+        $("img.foto").animate({
+          widht:'200px !important',
+          height: '100px'
+        });
+      });
+    });
+    $(document).ready(function(){
+        $("img.foto").mouseout(function(){
+        $("img.foto").animate({
+          widht:'50px !important',
+          height: '50px'
+        });
+      });
+    });
+    
+</script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row color">
+				<div class="col-1"><a onclick="openNav()"><img class="iconmenu" src="img/menu.png" alt=""></a>
+					<div id="myNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<div class="overlay-content">
+						  <a href="index.html">Home</a>
+						  <a href="contato.html">Contato</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-10"></div>
+				<div class="col-1"><img class="foto img" src="img/eu.jpg" alt="f"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="rofluid topo">
+					<div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-3"><p>●	OBJETIVO</p>
+                            <p>Adquirir experiência</p>
+                            <p>Crescimento profissional</p>
+                            <p>Desenvolvimento em trabalho de equipe</p>
+                            <p>Interação com o ambiente profissional</p>
+                            </div>
+                            <div class="liha-vertical"></div>
+                        <div class="col-4"><p>●	FORMAÇÃO ACADÊMICA</p>
+                                <p>Formação superior em Análise e desenvolvimento de sistemas -cursando o primeiro semestre no período noturno – Módulo (Caraguatatuba/SP) - 2020.</p>
+                            
+                                 <p>Técnico em informática para internet – Instituto Federal (Caraguatatuba/SP) - 2019.</p>
+                            
+                                <p>Ensino médio – Tableau (Caraguatatuba/SP) - 2019.
+                            </div>
+                        <div class="col-4"><p>●	IDIOMAS</p>
+                            <p>-	Inglês
+                            Leitura: Médio | Escrita: médio | Fala: Iniciante</p>
+                            
+                            <p>-	Espanhol
+                            Leitura: Médio | Escrita: Médio | Fala: Iniciante</p>
+                        </div>
+                    
+                    </div>
+                    <div class="row-fluid seps">
+                        <hr>
+                        <div class="col-12"><p>●	INFORMAÇÕES COMPLEMENTARES
+                            -	Projetos Integradores</p>
+                            
+                            <p>Instituto Federal - 2018
+                            Atividades desenvolvidas: Criação de um projeto em Html, Css e JavaScript, como trabalho de conclusão de semestre.</p>
+                            
+                            <p>Instituto Federal - 2019
+                            Atividades desenvolvidas: Criação de um projeto em Html, Css, JavaScript, PHP, banco de dados e uso de frameworks, como trabalho de conclusão do segundo semestre.</p>
+                            
+                        <p>Instituto Federal - 2019
+                            Atividades desenvolvidas: Criação de um projeto em Html, Css, JavaScript, PHP, uso de frameworks, banco de dados e uso do composer, como trabalho de conclusão do terceiro semestre.</p></div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
